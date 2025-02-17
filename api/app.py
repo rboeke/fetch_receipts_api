@@ -14,10 +14,6 @@ id_count = 1
 #   stores receipt objects with unique id as key
 receipts = {}
 
-@app.route('/', methods=["GET"])
-def home():
-    return "<h1>Receipts API Running</h1>", 200
-
 @app.route('/receipts/process', methods=['POST'])
 def process():
     global id_count
