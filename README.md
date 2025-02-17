@@ -4,7 +4,7 @@ Receipts API built for Fetch's Receipt Processor Challenge
 
 # Instructions
 
-Run ./build_and_run_api.sh to build and run the Docker container
+Run ./build_and_run_api.sh to build and run the Docker container \
 The Receipts API will then start running at 0.0.0.0:5000
 
 # Code
